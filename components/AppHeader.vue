@@ -9,7 +9,7 @@ interface NavLink {
 const navLinks = ref<NavLink[]>([
   {url_name: "index", name: "Home"},
   {url_name: "partners", name: "Partners"},
-  {url_name: "blog", name: "Blog"},
+  // {url_name: "blog", name: "Blog"},
 ]);
 
 const toggleOpen = () => {
@@ -28,9 +28,9 @@ function openModal() {
       <div class="flex-1 flex items-center gap-10">
         <a href="/">
           <img
-              class="w-[140px] object-contain"
-              src="/logo/allPioneers.svg"
-              alt="All Pioneers Logo"
+              class="h-[38px] object-contain"
+              src="/logo/p-2.png"
+              alt="QPioneers"
           >
         </a>
 

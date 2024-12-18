@@ -10,7 +10,7 @@ function openModal() {
       <div class="w-full py-16 grid lg:grid-cols-2 gap-10 border-b border-white/30">
         <div class="flex flex-col">
           <a href="/">
-            <img class="object-contain h-[30px]" src="/logo/allPioneers-white.svg" alt="">
+            <img class="object-contain h-[36px]" src="/logo/p-2-white.png" alt="">
           </a>
           <div class="flex text-white gap-10 mt-10">
             <div class="flex flex-col gap-3">

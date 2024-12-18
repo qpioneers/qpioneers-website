@@ -15,7 +15,7 @@ interface NavLink {
 const navLinks = ref<NavLink[]>([
   {url_name: "index", name: "Home"},
   {url_name: "partners", name: "Partners"},
-  {url_name: "blog", name: "Blog"},
+  // {url_name: "blog", name: "Blog"},
 ]);
 
 const router = useRouter()
@@ -72,7 +72,7 @@ function openModal() {
             </button>
             <div class="flex justify-center mt-10 w-full pb-20">
               <a href="/">
-                  <img class="object-contain h-[30px]" src="/logo/allPioneers.svg" alt="">
+                  <img class="object-contain h-[45px]" src="/logo/p-2.png" alt="">
               </a>
             </div>
 

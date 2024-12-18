@@ -199,6 +199,10 @@ const autoplayStoryConfig = {
   delay: 5000,
   disableOnInteraction: true
 }
+
+function openModal() {
+  sharedState.isModalOpen = true
+}
 </script>
 
 <template>
@@ -207,7 +211,7 @@ const autoplayStoryConfig = {
       <div class="grid grid-cols-12 gap-6">
         <div class="col-span-12 lg:col-span-8">
           <div class="flex">
-            <p class="border ps-2 py-2 pe-5 rounded-full flex gap-2 items-center text-sm md:text-base">
+            <button @click="openModal" class="border ps-2 py-2 pe-5 rounded-full flex gap-2 items-center text-sm md:text-base outline-none">
               <IconoirProvider
                   :icon-props="{
                   'color': 'current',
@@ -220,7 +224,7 @@ const autoplayStoryConfig = {
           </span>
               </IconoirProvider>
               Join QPioneers Marketplace for Vendors!
-            </p>
+            </button>
           </div>
 
           <h1 class="text-3xl lg:text-5xl leading-snug font-bold lg:text-balance mt-6 brand">
