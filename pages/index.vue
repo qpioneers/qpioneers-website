@@ -147,22 +147,22 @@ const faqs = [
 ];
 const vendorStories = [
   {
-    fullName: 'Emily S.',
+    fullName: 'Hind S.',
     role: 'Marketing Solutions Provider',
     quote: '"QPioneers Marketplace helped us secure long-term partnerships with high-growth startups and accelerators. It\'s a game-changer for our business."',
-    image: 'happy-woman-portrait-and-small-business-professio-2023-11-27-05-04-14-utc.jpg'
+    image: 'female-marketing.jpeg'
   },
   {
-    fullName: 'James D.',
+    fullName: 'Ahmad D.',
     role: 'Software Development Consultant',
     quote: '"Thanks to QPioneers, I’ve expanded my client base effortlessly. The platform’s AI matches me with projects that align perfectly with my skills."',
-    image: 'happy-bearded-trader-in-formal-wear-and-eyeglasses-2023-11-27-05-12-26-utc.jpg'
+    image: 'male-tech.jpeg'
   },
   {
-    fullName: 'Sophia R.',
+    fullName: 'Nouf R.',
     role: 'Graphic Design Specialist',
     quote: '"QPioneers made it simple to connect with clients who value my work. It saves time and helps me focus on what I do best: creating amazing designs."',
-    image: 'smiling-female-photographer-at-desk-in-studio-2023-11-27-04-58-44-utc.jpg'
+    image: 'female-designer.jpeg'
   }
 ];
 
