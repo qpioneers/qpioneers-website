@@ -360,13 +360,13 @@ function openModal() {
             </div>
             <div class="order-2 lg:col-span-7">
               <div class="flex bg-gray-50 p-10 rounded-lg">
-                <img class="w-full object-contain h-[400px]" src="/img/screens/Task%20Card%201.svg" alt="">
+                <img class="w-full object-contain h-[400px]" src="/img/screens/Task%20Card%201.png" alt="">
               </div>
             </div>
 
             <div class="order-4 lg:order-3 lg:col-span-7 ">
               <div class="bg-gray-50 p-10 rounded-lg">
-                <img class="w-full object-contain h-[400px]" src="/img/screens/Task%20Card%202.svg" alt="">
+                <img class="w-full object-contain h-[400px]" src="/img/screens/Task%20Card%202.png" alt="">
               </div>
             </div>
 
@@ -393,7 +393,7 @@ function openModal() {
             </div>
             <div class="order-6 lg:col-span-7">
               <div class="bg-gray-50 p-10 rounded-lg">
-                <img class="w-full object-contain h-[400px]" src="/img/screens/Task%20Card%203.svg" alt="">
+                <img class="w-full object-contain h-[400px]" src="/img/screens/Task%20Card%203.png" alt="">
               </div>
             </div>
 
