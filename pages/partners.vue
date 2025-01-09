@@ -146,7 +146,7 @@ const benefits = [
         </NuxtLink>
 
         <div class="h-[400px] lg:h-[600px] mt-10 w-full bg-gray-100 rounded-lg p-5">
-          <img class="w-full h-full object-contain rounded-lg" src="/img/screens/Frame4.png" alt="">
+          <img class="h-[400px] w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/screens/Frame4.png" alt="">
         </div>
 
         <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-10">
