@@ -99,13 +99,13 @@ const vendorStories = [
     fullName: 'Ahmed K.',
     role: 'Workflow Automation Platform',
     quote: '"Since partnering with QPioneers, we’ve seen a 35% increase in user engagement on our platform. The AI-powered recommendations are a game-changer!"',
-    image: 'happy-bearded-trader-in-formal-wear-and-eyeglasses-2023-11-27-05-12-26-utc.jpg'
+    image: 'ptofile-workflow-1.png'
   },
   {
     fullName: ' Sarah L.',
     role: 'Real Estate SaaS Platform',
     quote: '"Integrating QPioneers was seamless, and the benefits were immediate. Our users love the ease of finding expert help through the platform."',
-    image: 'happy-woman-portrait-and-small-business-professio-2023-11-27-05-04-14-utc.jpg'
+    image: 'ptofile-estate-1.png'
   },
 ];
 
