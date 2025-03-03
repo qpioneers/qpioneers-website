@@ -210,7 +210,7 @@ const benefits = [
             </div>
             <div class="lg:col-span-7">
               <div class="flex bg-gray-50 p-10 rounded-lg">
-                <img class="h-full w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/screens/integrate-with_ease.jpg" alt="">
+                <img class="h-full w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/partners/how-it-works/QPioneers Partners How it works-01.png" alt="">
               </div>
             </div>
 
@@ -228,7 +228,7 @@ const benefits = [
 
             <div class="lg:col-span-7 ">
               <div class="bg-gray-50 p-10 rounded-lg">
-                <img class="h-full w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/screens/Task%20Card%203.png" alt="">
+                <img class="h-full w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/partners/how-it-works/QPioneers Partners How it works-02.png" alt="">
               </div>
             </div>
 
@@ -245,7 +245,7 @@ const benefits = [
             </div>
             <div class="lg:col-span-7">
               <div class="bg-gray-50 p-10 rounded-lg">
-                <img class="h-full w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/screens/Task%20Card%204.jpg" alt="">
+                <img class="h-full w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/partners/how-it-works/QPioneers Partners How it works-03.png" alt="">
               </div>
             </div>
 
@@ -261,7 +261,7 @@ const benefits = [
             </div>
             <div class="lg:col-span-7">
               <div class="flex bg-gray-50 p-10 rounded-lg">
-                <img class="h-full w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/screens/siteArtboard-1-3.png" alt="">
+                <img class="h-full w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/partners/how-it-works/QPioneers Partners How it works-04.png" alt="">
               </div>
             </div>
           </IconoirProvider>
