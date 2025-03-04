@@ -125,25 +125,46 @@ const whyBlocks = [
 
 const faqs = [
   {
-    question: "How does AI matchmaking work?",
-    answer: "Our AI analyzes your offerings and matches them with the specific needs of startups, incubators, and accelerators.",
+    question: "What is Qpioneers?",
+    answer: "Qpioneers is a marketplace that connects startups with trusted experts and service providers using an AI-powered recommendation engine. We make it easy for startups to find the right expertise and for service providers to connect with businesses that need their skills.",
   },
   {
-    question: "What types of vendors can join?",
-    answer: "We welcome vendors in tech, marketing, SaaS, finance, and more.",
+    question: "Who can use Qpioneers?",
+    answer: "Qpioneers is designed for: <br> <span class='text-[20px] font-bold '>•</span> Startups & SMEs looking for expert guidance. <br> <span class='text-[20px] font-bold '>•</span> Service Providers & Experts seeking new business opportunities."
   },
   {
-    question: "Can I connect with multiple clients?",
-    answer: "Yes! The AI will keep matching you with clients based on your capacity.",
+    question: "What industries does Qpioneers cover?",
+    answer: "Qpioneers supports a wide range of industries, including technology, marketing, finance, legal services, product development, and more.",
   },
   {
-    question: "Is there a fee?",
-    answer: "There’s no upfront fee. You only pay for the services you use.",
+    question: "How do startups find the right expert?",
+    answer: "Startups answer a few simple questions, and our AI-powered engine recommends the best experts based on their needs.",
   },
   {
-    question: "What if I don’t like my matches?",
-    answer: "We’ll keep refining the matches until you find the perfect fit.",
+    question: "How do service providers join Qpioneers?",
+    answer: "Experts create a profile detailing their skills, rates, and services. The Qpioneers team reviews and approves profiles to ensure quality before they go live.",
   },
+  {
+    question: "Is Qpioneers free to use?",
+    answer: "Browsing and matching are free. A transaction fee applies when a service is booked and paid for through the platform and a service fee is taken per transaction from the vendors.",
+  },
+  {
+    question: "How are payments handled?",
+    answer: "Qpioneers uses a secure escrow system. Funds are released in milestones to ensure both startups and experts are protected.",
+  },
+  {
+    question: "Where is Qpioneers based?",
+    answer: "Qpioneers operates from Riyadh, Saudi Arabia, serving startups and experts across the GCC region and beyond.",
+  },
+  {
+    question: "How does Qpioneers work?",
+    answer: "<span class='text-[20px] font-bold '>•</span> Expert Onboarding & Approval – Experts create profiles showcasing their services, which are reviewed for quality. <br/> <span class='text-[20px] font-bold '>•</span> AI Matching Engine – Startups answer a short questionnaire, and our AI suggests the best expert matches. <br/> <span class='text-[20px] font-bold '>•</span> Built-in Messaging – Startups and providers can chat directly on the platform. <br/> <span class='text-[20px] font-bold '>•</span> Secure Escrow Payments – Funds are held securely and released in milestones. <br/> <span class='text-[20px] font-bold '>•</span> Simple Account Setup – Startups can browse experts freely and only need an account at checkout. ",
+  },
+  {
+    question: "Why choose Qpioneers?",
+    answer: "Qpioneers bridges the gap between startups and trusted expertise, ensuring quality matches, secure transactions, and a seamless experience for both parties.",
+  },
+
 ];
 const vendorStories = [
   {
@@ -360,13 +381,13 @@ function openModal() {
             </div>
             <div class="order-2 lg:col-span-7">
               <div class="flex bg-gray-50 p-10 rounded-lg">
-                <img class="h-[400px] w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/screens/Task%20Card%202.png" alt="">
+                <img class="h-[400px] w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/home/how-it-works/QPioneers-Home-How-it-works-01.png" alt="">
               </div>
             </div>
 
             <div class="order-4 lg:order-3 lg:col-span-7 ">
               <div class="bg-gray-50 p-10 rounded-lg">
-                <img class="h-[400px] w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/screens/Task%20Card%201.png" alt="">
+                <img class="h-[400px] w-full object-cover object-left  rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/home/how-it-works/QPioneers-Home-How-it-works-02.png" alt="">
               </div>
             </div>
 
@@ -393,7 +414,7 @@ function openModal() {
             </div>
             <div class="order-6 lg:col-span-7">
               <div class="bg-gray-50 p-10 rounded-lg">
-                <img class="h-[400px] w-full object-cover object-left rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/screens/Task%20Card%203.png" alt="">
+                <img class="h-[400px] w-full object-cover object-left rounded-[15px] shadow-[0_0_50px_rgba(255,255,255,0.8)]" src="/img/home/how-it-works/QPioneers-Home-How-it-works-03.png" alt="">
               </div>
             </div>
 
@@ -527,7 +548,7 @@ function openModal() {
 
                 <template #content>
                   <div class="pt-5 px-4">
-                    <p class="text-zinc-800">{{ faq.answer }}</p>
+                    <p class="text-zinc-800" v-html="faq.answer"></p>
                   </div>
                 </template>
               </AccordionItem>
