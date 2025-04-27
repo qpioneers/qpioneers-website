@@ -7,7 +7,7 @@ function openModal() {
 <template>
   <footer class="bg-qdark w-full mt-12 lg:mt-16 px-3 2xl:px-0">
     <div class="max-w-screen-xl mx-auto">
-      <div class="w-full py-16 grid lg:grid-cols-2 gap-10 border-b border-white/30">
+      <div class="w-full pt-16 pb-5 grid lg:grid-cols-2 gap-10 border-b border-white/30">
         <div class="flex flex-col">
           <a href="/">
             <img class="object-contain h-[36px]" src="/logo/p-2-white.png" alt="">
@@ -31,7 +31,10 @@ function openModal() {
               Join now
             </button>
           </div>
-
+        </div>
+        <div class="flex justify-center gap-4 text-sm text-white/70 lg:col-span-2 -mt-1">
+          <NuxtLink to="/privacy-policy" class="hover:text-white transition duration-300">Privacy Policy</NuxtLink>
+          <NuxtLink to="/terms" class="hover:text-white transition duration-300">Terms and Conditions</NuxtLink>
         </div>
       </div>
       <div class="py-10 flex flex-col lg:flex-grow gap-5 items-center text-white">
