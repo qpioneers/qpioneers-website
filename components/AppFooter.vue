@@ -33,7 +33,7 @@ function openModal() {
           </div>
         </div>
         <div class="flex justify-center gap-4 text-sm text-white/70 lg:col-span-2 -mt-1">
-          <NuxtLink to="/privacy-policy" class="hover:text-white transition duration-300">Privacy Policy</NuxtLink>
+          <NuxtLink to="/privacy" class="hover:text-white transition duration-300">Privacy Policy</NuxtLink>
           <NuxtLink to="/terms" class="hover:text-white transition duration-300">Terms and Conditions</NuxtLink>
         </div>
       </div>
