@@ -68,7 +68,7 @@ function closeModal() {
                   <div class="grid lg:grid-cols-2 gap-6 mt-6">
 
                     <div>
-                      <NuxtLink to="https://qpioneer.qewam.com/expert-signup"
+                      <NuxtLink to="https://app.qpioneers.com/expert-signup"
                                 class="border border-black rounded-lg flex flex-col gap-3 items-center p-6 hover:bg-blue-50 duration-300 h-full">
                         <User/>
                         <h3 class="text-lg font-medium brand">I am an Expert</h3>
@@ -78,7 +78,7 @@ function closeModal() {
                     </div>
 
                     <div>
-                      <NuxtLink to="https://providers.qpioneers.com/admin/"
+                      <NuxtLink to="https://provider.qpioneers.com/admin/login"
                                 class="border border-black rounded-lg flex flex-col gap-3 items-center p-6 hover:bg-blue-50 duration-300 h-full">
                         <Suitcase/>
                         <h3 class="text-lg font-medium brand">I am a Service Provider</h3>
