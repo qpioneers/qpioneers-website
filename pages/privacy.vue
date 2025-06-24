@@ -25,6 +25,38 @@ useSeo('Privacy Policy - QPioneers', 'Read our Privacy Policy to understand how 
 
           <p class="text-gray-700 leading-relaxed">All undefined terms used in the privacy policy shall have the same meaning as those terms defined in the terms and conditions.</p>
 
+          <h2 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">Integration with Third-Party Services &amp; API Data Usage</h2>
+          <div class="prose prose-lg max-w-none">
+            <p class="text-gray-700 leading-relaxed">To enhance our platform's functionality, Qpioneers offers integration with various third-party services. When you choose to connect your account from these services, we may access certain data through their respective Application Programming Interfaces (APIs). Our use of this data is strictly governed by our privacy policy and the terms and data policies of each third-party service.</p>
+          
+            <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Authentication and Identity Services</h3>
+            <ul class="list-disc pl-8">
+              <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> When you sign up or log in using a third-party authentication service, we access your basic profile information, including your name, email address, and profile picture.</li>
+              <li class="text-gray-700 leading-relaxed"><strong>How We Use It:</strong> This information is used to create and manage your Qpioneers account, populate your user profile, and secure your access to the platform. This enables core features such as user registration with a work email and the display of team member cards with names and photos (or initials) in your workspace.</li>
+            </ul>
+          
+            <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">File and Data Storage Services</h3>
+            <ul class="list-disc pl-8">
+              <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> To enable our "Documents Module", you can grant Qpioneers access to your files from third-party data storage services. This access allows our application to view file metadata (like name, type, and owner) and, with your explicit action, read the content of files you choose to upload or analyze within your workspace.</li>
+              <li class="text-gray-700 leading-relaxed"><strong>How We Use It:</strong> We access this data for the sole purpose of allowing you to upload, view, manage, and share your documents within your Qpioneers workspace. Our AI agents may process the content of your selected files to provide "context awareness" and deliver "tailored recommendations" that are exclusively for you and your workspace.</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Calendar Integration</h3>
+            <ul class="list-disc pl-8">
+              <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> With your permission, we may access your calendar data, including event details (title, time, attendees) and calendar metadata.</li>
+              <li class="text-gray-700 leading-relaxed"><strong>How We Use It:</strong> This integration allows you to sync project milestones and task deadlines from QPioneers directly to your calendar. It also helps in scheduling meetings and viewing team availability within the platform to streamline collaboration.</li>
+            </ul>
+          
+            <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Our Data Use and AI Compliance Commitment</h3>
+            <p class="text-gray-700 leading-relaxed">QPioneers is committed to the responsible and ethical use of data received from all integrated third-party services. We adhere to the specific data protection policies of each integrated platform, including any applicable Limited Use requirements. As a universal commitment, data obtained from any third-party API is subject to the following restrictions:</p>
+            <ul class="list-disc pl-8">
+                <li class="text-gray-700 leading-relaxed">It is <strong>never</strong> used for developing, improving, or training generalized or non-personalized artificial intelligence and/or machine learning models. All AI analysis is for personalized user-facing features only.</li>
+                <li class="text-gray-700 leading-relaxed">It is <strong>never</strong> sold to third parties.</li>
+                <li class="text-gray-700 leading-relaxed">It is <strong>never</strong> used for advertising purposes.</li>
+                <li class="text-gray-700 leading-relaxed">It is accessed and used only to provide or improve the user-facing features prominent within the Qpioneers platform, such as our AI-powered virtual workspaces and document management tools.</li>
+            </ul>
+          </div>
+
           <h2 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">1. Type of personal data we collect</h2>
           <p class="text-gray-700 leading-relaxed">when you visit our platform, we may collect personal information from or about you. In particular, we collect information you provide when you:</p>
           <ul class="list-disc pl-8">
@@ -36,7 +68,7 @@ useSeo('Privacy Policy - QPioneers', 'Read our Privacy Policy to understand how 
           </ul>
 
           <h2 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">2. Cookies and similar technologies</h2>
-          <p class="text-gray-700 leading-relaxed">(a) a browser cookie ("the cookies") is a small piece of data that is stored on your device to help websites remember things about you. Other technologies, including web storage and identifiers associated with your device, may be used for similar purposes. In this privacy policy, we use cookies ("cookies") to refer to all of these technologies.</p>
+          <p class="text-gray-700 leading-relaxed">(a) a browser cookie ("the cookies") is a small piece of data that is stored on your device to help websites remember things about you. Other technologies, including web storage, and identifiers associated with your device, may be used for similar purposes. In this privacy policy, we use cookies ("cookies") to refer to all of these technologies.</p>
           <p class="text-gray-700 leading-relaxed">(b) like most online services and websites, we may use cookies and other technologies, such as web beacons, web storage, and unique advertising identifiers, to collect information about your activity, browser, and device.</p>
           <p class="text-gray-700 leading-relaxed">(c) we may also use these cookies to collect information when you interact with the services we offer through our partners, such as advertising and commerce features. Most web browsers are set to accept cookies by default. You can choose to remove or reject browser cookies through the settings on your browser or device. Keep in mind, though, that removing or rejecting cookies could affect the availability and functionality of our platforms.</p>
           <p class="text-gray-700 leading-relaxed">(d) like most providers of online services, QPioneers uses cookies for a number of reasons, such as protecting your data, helping us see which features are most popular, counting visitors to a page, improving our users' experience, keeping our platform secure, and generally providing you with a better, more intuitive and satisfying experience.</p>
@@ -163,4 +195,4 @@ useSeo('Privacy Policy - QPioneers', 'Read our Privacy Policy to understand how 
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
-</style> 
+</style>
