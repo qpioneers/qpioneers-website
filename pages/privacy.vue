@@ -25,35 +25,32 @@ useSeo('Privacy Policy - QPioneers', 'Read our Privacy Policy to understand how 
 
           <p class="text-gray-700 leading-relaxed">All undefined terms used in the privacy policy shall have the same meaning as those terms defined in the terms and conditions.</p>
 
-          <h2 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">Integration with Third-Party Services &amp; API Data Usage</h2>
+          <h2 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">API Data Usage</h2>
           <div class="prose prose-lg max-w-none">
             <p class="text-gray-700 leading-relaxed">To enhance our platform's functionality, Qpioneers offers integration with various third-party services. When you choose to connect your account from these services, we may access certain data through their respective Application Programming Interfaces (APIs). Our use of this data is strictly governed by our privacy policy and the terms and data policies of each third-party service.</p>
           
             <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Authentication and Identity Services</h3>
             <ul class="list-disc pl-8">
-              <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> When you sign up or log in using a third-party authentication service, we access your basic profile information, including your name, email address, and profile picture.</li>
-              <li class="text-gray-700 leading-relaxed"><strong>How We Use It:</strong> This information is used to create and manage your Qpioneers account, populate your user profile, and secure your access to the platform. This enables core features such as user registration with a work email and the display of team member cards with names and photos (or initials) in your workspace.</li>
+              <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> When you sign up or log in using a third-party service, we access your basic profile information, including your name, email address, and profile picture.</li>
+              <li class="text-gray-700 leading-relaxed"><strong>How We Use It:</strong> This information is used to create and manage your Qpioneers account, populate your user profile, and secure your access to the platform.</li>
             </ul>
           
             <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">File and Data Storage Services</h3>
             <ul class="list-disc pl-8">
-              <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> To enable our "Documents Module", you can grant Qpioneers access to your files from third-party data storage services. This access allows our application to view file metadata (like name, type, and owner) and, with your explicit action, read the content of files you choose to upload or analyze within your workspace.</li>
-              <li class="text-gray-700 leading-relaxed"><strong>How We Use It:</strong> We access this data for the sole purpose of allowing you to upload, view, manage, and share your documents within your Qpioneers workspace. Our AI agents may process the content of your selected files to provide "context awareness" and deliver "tailored recommendations" that are exclusively for you and your workspace.</li>
-            </ul>
-
-            <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Calendar Integration</h3>
-            <ul class="list-disc pl-8">
-              <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> With your permission, we may access your calendar data, including event details (title, time, attendees) and calendar metadata.</li>
-              <li class="text-gray-700 leading-relaxed"><strong>How We Use It:</strong> This integration allows you to sync project milestones and task deadlines from QPioneers directly to your calendar. It also helps in scheduling meetings and viewing team availability within the platform to streamline collaboration.</li>
+              <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> To enable our "Documents Module", you can grant Qpioneers access to your files from third-party storage services. This access allows our application to view file metadata and, with your explicit action, read the content of files you choose to use within your workspace.</li>
+              <li class="text-gray-700 leading-relaxed"><strong>How We Use It:</strong> We access this data to allow you to upload, view, and manage your documents within your QPioneers workspace. Our AI agents may process the content of your selected files to provide "context awareness" and deliver "tailored recommendations" exclusively for you and your workspace.</li>
             </ul>
           
-            <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Our Data Use and AI Compliance Commitment</h3>
-            <p class="text-gray-700 leading-relaxed">QPioneers is committed to the responsible and ethical use of data received from all integrated third-party services. We adhere to the specific data protection policies of each integrated platform, including any applicable Limited Use requirements. As a universal commitment, data obtained from any third-party API is subject to the following restrictions:</p>
+            <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Our Data Use and Compliance</h3>
+            <p class="text-gray-700 leading-relaxed">When integrating with any third-party service, QPioneers is committed to handling your data responsibly and in accordance with the respective platform's user data policies, including any applicable limited use requirements. Our use and transfer of information received from third-party APIs adheres to the following principles:</p>
             <ul class="list-disc pl-8">
-                <li class="text-gray-700 leading-relaxed">It is <strong>never</strong> used for developing, improving, or training generalized or non-personalized artificial intelligence and/or machine learning models. All AI analysis is for personalized user-facing features only.</li>
-                <li class="text-gray-700 leading-relaxed">It is <strong>never</strong> sold to third parties.</li>
-                <li class="text-gray-700 leading-relaxed">It is <strong>never</strong> used for advertising purposes.</li>
-                <li class="text-gray-700 leading-relaxed">It is accessed and used only to provide or improve the user-facing features prominent within the Qpioneers platform, such as our AI-powered virtual workspaces and document management tools.</li>
+              <li class="text-gray-700 leading-relaxed">We <strong>limit the use of data</strong> to providing or improving the user-facing features of QPioneers that are visible and prominent in our application's user interface.</li>
+              <li class="text-gray-700 leading-relaxed">We <strong>do not transfer user data</strong>, except when necessary to provide or improve our application's features, for security purposes (such as investigating abuse), to comply with applicable laws, or as part of a merger/acquisition with your explicit prior consent.</li>
+              <li class="text-gray-700 leading-relaxed">We <strong>do not allow humans to read user data</strong>, unless we have your explicit consent for specific data (e.g., for technical support), it is necessary for security purposes, or to comply with applicable laws.</li>
+              <li class="text-gray-700 leading-relaxed">We <strong>will never</strong> transfer or sell user data to any third parties like advertising platforms or data brokers.</li>
+              <li class="text-gray-700 leading-relaxed">We <strong>will never</strong> use data from third-party APIs for serving advertisements, including personalized or interest-based advertising.</li>
+              <li class="text-gray-700 leading-relaxed">We <strong>will never</strong> use user data obtained through third-party APIs to determine credit-worthiness or for lending purposes.</li>
+              <li class="text-gray-700 leading-relaxed">We <strong>will never</strong> use data from third-party APIs to train generalized artificial intelligence or machine learning models. Any AI/ML model training is strictly limited to personalizing the experience for you, the specific user, within the context of our application's features.</li>
             </ul>
           </div>
 
