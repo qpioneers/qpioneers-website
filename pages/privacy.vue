@@ -9,7 +9,7 @@ useSeo('Privacy Policy - QPioneers', 'Read our Privacy Policy to understand how 
     <section class="py-12 lg:py-16">
       <div class="container mx-auto px-4 max-w-4xl">
         <h1 class="text-4xl font-bold mb-8 text-gray-900">Privacy Policy</h1>
-        
+
         <div class="prose prose-lg max-w-none">
           <p class="text-gray-700 leading-relaxed">Your privacy is important to us. This online privacy policy ("privacy policy") together with the documents and policies incorporated and referenced in the terms and conditions (the "terms"), including the privacy policy with terms and conditions, shall constitute an agreement ("agreement") between you ("you, your, yourself"), and "QPioneers holding inc." along with its affiliates, successors, and assigns ("QPioneers, we, us, or our").</p>
 
@@ -25,16 +25,46 @@ useSeo('Privacy Policy - QPioneers', 'Read our Privacy Policy to understand how 
 
           <p class="text-gray-700 leading-relaxed">All undefined terms used in the privacy policy shall have the same meaning as those terms defined in the terms and conditions.</p>
 
+          <h2 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">Google API Services User Data Policy</h2>
+          <div class="prose prose-lg max-w-none">
+            <p class="text-gray-700 leading-relaxed">
+              Our application's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the Limited Use requirements.
+            </p>
+            <p class="text-gray-700 leading-relaxed">
+              To provide clarity and transparency to our users, we want to explain how our application accesses, uses, stores, and shares user data obtained from Google services. Our handling of data from Google Workspace APIs and Google Photos APIs is in strict compliance with the "Limited Use" requirements outlined in their respective policies.
+            </p>
+
+            <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Limited Use of User Data</h3>
+             <ul class="list-disc pl-8">
+                <li class="text-gray-700 leading-relaxed">We will only use the data to provide or improve the prominent, user-facing features of our application.</li>
+                <li class="text-gray-700 leading-relaxed">We will not transfer user data to others unless it is necessary to provide or improve these features, for security purposes, to comply with applicable laws, or as part of a merger or acquisition with the user's explicit consent.</li>
+                <li class="text-gray-700 leading-relaxed">We will never use or transfer the data for serving advertisements, including personalized, retargeting, or interest-based ads.</li>
+                <li class="text-gray-700 leading-relaxed">We will not allow humans to read the data unless we have the user's affirmative agreement for specific data, it is necessary for security reasons, it is required to comply with applicable laws, or the data is anonymized and aggregated for internal operations.</li>
+            </ul>
+             <p class="text-gray-700 leading-relaxed">
+              For more detailed information, we encourage our users to review the specific "Limited Use" requirements from Google at the following locations:
+            </p>
+            <ul class="list-disc pl-8">
+                <li class="text-gray-700 leading-relaxed">
+                  <strong>Google Workspace APIs:</strong> <a href="https://developers.google.com/workspace/workspace-api-user-data-developer-policy" target="_blank" rel="noopener noreferrer">Google Workspace API User Data and Developer Policy</a>
+                </li>
+                <li class="text-gray-700 leading-relaxed">
+                  <strong>Google Photos APIs:</strong> <a href="https://developers.google.com/photos/support/api-policy" target="_blank" rel="noopener noreferrer">Google Photos API User Data and Developer Policy</a>
+                </li>
+              </ul>
+          </div>
+
+
           <h2 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">Integration with Third-Party Services &amp; API Data Usage</h2>
           <div class="prose prose-lg max-w-none">
             <p class="text-gray-700 leading-relaxed">To enhance our platform's functionality, Qpioneers offers integration with various third-party services. When you choose to connect your account from these services, we may access certain data through their respective Application Programming Interfaces (APIs). Our use of this data is strictly governed by our privacy policy and the terms and data policies of each third-party service.</p>
-          
+
             <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Authentication and Identity Services</h3>
             <ul class="list-disc pl-8">
               <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> When you sign up or log in using a third-party authentication service, we access your basic profile information, including your name, email address, and profile picture.</li>
               <li class="text-gray-700 leading-relaxed"><strong>How We Use It:</strong> This information is used to create and manage your Qpioneers account, populate your user profile, and secure your access to the platform. This enables core features such as user registration with a work email and the display of team member cards with names and photos (or initials) in your workspace.</li>
             </ul>
-          
+
             <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">File and Data Storage Services</h3>
             <ul class="list-disc pl-8">
               <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> To enable our "Documents Module", you can grant Qpioneers access to your files from third-party data storage services. This access allows our application to view file metadata (like name, type, and owner) and, with your explicit action, read the content of files you choose to upload or analyze within your workspace.</li>
@@ -46,7 +76,7 @@ useSeo('Privacy Policy - QPioneers', 'Read our Privacy Policy to understand how 
               <li class="text-gray-700 leading-relaxed"><strong>Data We Access:</strong> With your permission, we may access your calendar data, including event details (title, time, attendees) and calendar metadata.</li>
               <li class="text-gray-700 leading-relaxed"><strong>How We Use It:</strong> This integration allows you to sync project milestones and task deadlines from QPioneers directly to your calendar. It also helps in scheduling meetings and viewing team availability within the platform to streamline collaboration.</li>
             </ul>
-          
+
             <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Our Data Use and AI Compliance Commitment</h3>
             <p class="text-gray-700 leading-relaxed">QPioneers is committed to the responsible and ethical use of data received from all integrated third-party services. We adhere to the specific data protection policies of each integrated platform, including any applicable Limited Use requirements. Our use and transfer of information received from third-party APIs adheres to the following principles:</p>
             <ul class="list-disc pl-8">
